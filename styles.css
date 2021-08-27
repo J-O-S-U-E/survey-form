@@ -1,9 +1,22 @@
 #wrapper-form {
-    background-color: cadetblue;
+    background-image: url(grass-background.png);
+    background-size: contain;
+    background-color: rgb(141, 106, 49);
     padding-bottom: 10px;
 }
 
 .form-group {
     padding-top: 10px;
     padding-bottom: 15px;
+}
+
+body {
+    background-image: url(fence-background.jpg);
+}
+
+#survey-form {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
