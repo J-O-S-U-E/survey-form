@@ -15,7 +15,6 @@
                 <h1 id="title">Survey Form</h1>
                 <p id="description">A simple survey form created using user stories provided by freecodecamp.org</p>
             </div>
-            <!-- might want to make the title and description outside the form -->
     
             <div class="row">
                 <div class="form-group">
@@ -31,47 +30,41 @@
                     <labe>Favorite sport between Basketball, Soccer, Football </label>
                     <select class="form-select" name="dropdown" id="dropdown">
                         <option selected>Choose an option: </option>
-                        <option value="optionOne">Basketball</option>
-                        <option value="optionTwo">Soccer</option>
-                        <option value="optionThree">Football</option>
+                        <option value="basketball">Basketball</option>
+                        <option value="soccer">Soccer</option>
+                        <option value="football">Football</option>
                     </select>
                 </div>
 
                 <div class="form-group">
                     <label>Do you play sports? </label>
                     <div class="form-check">
-                        <input type="radio" id="radiobtnfirst" name="radiogroup1" value="firstradiobtn" class="form-check-input">
                         <label for="radiobtnfirst" class="form-check-label">Yes</label>
+                        <input class="form-check-input" type="radio" id="radiobtnfirst" name="radiogroup1" value="yes">
                     </div>
                     <div class="form-check">
-                        <input type="radio" id="radiobtnsecond" name="radiogroup1" value="secondradiobtn" class="form-check-input">
                         <label for="radiobtnsecond" class="form-check-label">No</label>
+                        <input class="form-check-input" type="radio" id="radiobtnsecond" name="radiogroup1" value="no">
                     </div>
                     <div class="form-check">
-                        <input type="radio" id="radiobtnthird" name="radiogroup1" value="thirdradiobtn" class="form-check-input">
                         <label for="radiobtnthird" class="form-check-label">Sometimes</label>
+                        <input class="form-check-input" type="radio" id="radiobtnthird" name="radiogroup1" value="sometimes">
                     </div>
                 </div>
 
                 <div class="form-group">
                     <label>Video games played: </label>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="firstcheck" id="firstcheckbtn">
-                        <label class="form-check-label" for="firstcheck">
-                            CSGO
-                        </label>
+                        <label class="form-check-label" for="firstcheck">CSGO</label>
+                        <input class="form-check-input" type="checkbox" value="csgo" id="firstcheck">
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="secondcheck" id="secondcheckbtn">
-                        <label class="form-check-label" for="secondcheck">
-                            Call of Duty
-                        </label>
+                        <label class="form-check-label" for="secondcheck">Call of Duty</label>
+                        <input class="form-check-input" type="checkbox" value="call-of-duty" id="secondcheck">
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="thirdcheck" id="thirdcheckbtn">
-                        <label class="form-check-label" for="thirdcheck">
-                            League of Legends
-                        </label>
+                        <label class="form-check-label" for="thirdcheck">League of Legends</label>
+                        <input class="form-check-input" type="checkbox" value="league-of-legends" id="thirdcheck">
                     </div>
                 </div>
 
@@ -88,6 +81,6 @@
     </div>
 
 </form>
-  
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
